@@ -107,7 +107,7 @@ this gives us the NTLM hash of the administrator's password. Running them throug
 </details>
 
 ## <b> 11. What is the version of the WebLogic server installed on the system?</b> 
-There was definitely a way I was meant to do this, however I left it till the end and came back to it later on. After answering [question 16](#question-16), I figured out the version of WebLogic from the CVE posting on exploitdb.
+There was definitely a way I was meant to do this, however I left it till the end and came back to it later on. After answering question 16, I figured out the version of WebLogic from the CVE posting on exploitdb.
 <details>
     <summary> <b>Solution </b> </summary>
     14.1.1.0.0
@@ -135,14 +135,14 @@ Looking through this output, and noting that the process running from the portfo
 </details>
 
 ## <b> 14. What is the PID of the next entry to the previous process? </b> 
-Continuing to look at the output from the above command, simply determine which process was run just before the one identified in [Question 13](#question-13).
+Continuing to look at the output from the above command, simply determine which process was run just before the one identified in question 13.
 <details>
     <summary> <b>Solution </b> </summary>
     4772
 </details>
 
 ## <b> 15. How many threads does the previous process have? </b> 
-Again, just like the last question, look at the output of the command from [Question 13](#question-13) and determine the number of threads the process has.
+Again, just like the last question, look at the output of the command from question 13 and determine the number of threads the process has.
 <details>
     <summary> <b>Solution </b> </summary>
     44
@@ -156,7 +156,7 @@ Here, all I did was some googling. I looked for "WebLogic CVE java" since the ex
 </details>
 
 ## <b> 17. The attacker used the vulnerability he found in the webserver to execute a reverse shell command to his own server. Provide the IP and port of the attacker server? </b> 
-Running the command, where \*PID\* is the PID from [question 13](#question-13): 
+Running the command, where \*PID\* is the PID from question 13: 
     
     vol -f memory.mem windows.pstree | grep *PID* 
 The output of this command indicates that java.exe spawned a series of powershell.exe processes. My next step was to run the windows.cmdline plugin again to see if that yielded any information about the powershell scripts being run:
