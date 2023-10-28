@@ -14,24 +14,7 @@ tags: [Wireshark, Network Traffic Analysis, Forensics]
 6. [Question 6](#question-6)
 7. [Question 7](#question-7)
 8. [Question 8](#question-8)
-9. [Question 9](#question-9)
-10. [Question 10](#question-10)
-11. [Question 11](#question-11)
-12. [Question 12](#question-12)
-13. [Question 13](#question-13)
-14. [Question 14](#question-14)
-15. [Question 15](#question-15)
-16. [Question 16](#question-16)
-17. [Question 17](#question-17)
-18. [Question 18](#question-18)
-19. [Question 19](#question-19)
-20. [Question 20](#question-20)
-21. [Question 21](#question-21)
-22. [Question 22](#question-22)
-23. [Question 23](#question-23)
-24. [Question 24](#question-24)
-25. [Question 25](#question-25)
-26. [Question 26](#question-26)
+
 
 
 # <b> 1. What is the victim's MAC address? </b> <a name = "question-1"> </a>
