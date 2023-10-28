@@ -14,35 +14,36 @@ timezone: America/Chicago
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: Eno Dynowski # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the sub-title
+tagline: DFIR @ CrowdStrike | Prev @ Tesla # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  Welcome! Here you can find my writeups for CTF challenges that I have solved both
+  independently, as well as with my team, 7968 at Loyola Chicago. 
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
 url: "https://enodynowski.github.io"
 
 github:
-  username: github_username # change to your github username
+  username: enodynowski # change to your github username
 
-twitter:
-  username: twitter_username # change to your twitter username
+# twitter:
+#   username: twitter_username # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  name: Eno Dynowski
+#  email: example@domain.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your twitter homepage
-    - https://github.com/username # change to your github homepage
+  #  - https://twitter.com/username # change to your twitter homepage
+    - https://github.com/enodynowski # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/eno-dynowski
 
 google_site_verification: # fill in to your verification string
 
@@ -73,7 +74,7 @@ theme_mode: dark # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: https://media.licdn.com/dms/image/C4E03AQHu_nOdEFuu2w/profile-displayphoto-shrink_800_800/0/1570217167297?e=1703721600&v=beta&t=7lVqGjGEGPEH8j_dCesl5Gung4b0nUhDpY4gaKhZllw
 
 # boolean type, the global switch for TOC in posts.
 toc: true
@@ -134,7 +135,7 @@ collections:
 
 defaults:
   - scope:
-      path: "" # An empty string here means all files in the project
+      path: "_posts" # An empty string here means all files in the project
       type: posts
     values:
       layout: post
