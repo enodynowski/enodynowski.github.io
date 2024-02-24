@@ -52,9 +52,6 @@ Cybersecurity, B.S.
 
 Computer Crime and Forensics, Minor
 
-Graduating in December, 2023
-
-
 ## Projects + Competitions
 ### Notable CTF experience
 
