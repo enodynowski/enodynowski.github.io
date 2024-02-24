@@ -9,9 +9,10 @@ ___
 ## Experience
 
 ### Associate Incident Response Consultant
-
-Remote | Starting January 2024
+#### CrowdStrike
+Remote | January 2024 - Present
 ### Professional Services Intern - IR
+#### CrowdStrike
 Remote | June - August 2023
 * Conducted digital forensic analysis in support of investigations into ransomware attacks, data extortion, and nation-state sponsored industrial espionage and cybercrime.
 
@@ -20,6 +21,7 @@ Remote | June - August 2023
 * Developed a series of PowerShell scripts to parse forensic artifacts on live systems, without writing to disk, via CrowdStrike Falcon. Artifacts included ShellBags, Jump Lists, and Link Files.
 
 ### Platform Security Intern
+#### Tesla
 Fremont, CA | May - August 2022
 
 * Conducted vulnerability assessment through aggregation of vendor release notes, CVEs, and OT industry security advisories. Communicated results to a wide range of audience (technical, non-technical).
@@ -31,6 +33,7 @@ Fremont, CA | May - August 2022
 * Spearheaded the development of internal hardening/configuration documentation for OT/ICS devices. This included supply chain open-source threat intelligence reporting. 
 
 ### Undergraduate Research Assistant
+#### Loyola University Chicago
 Chicago, IL | September 2021 - Present
 
 * Acquired NSA grant to research web browser traffic patterns to better understand website fingerprinting. 
